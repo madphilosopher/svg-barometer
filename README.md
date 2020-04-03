@@ -22,10 +22,14 @@ Each needle is optional, so the following code will only draw the indicator need
 barometer.write_svg("barometer.svg", p_ind=100.20)
 ```
 
+## Live Image
+
+There is a live image showing the current and past sea level pressure readings for CYEG at [dashboard.madphilosopher.ca](http://dashboard.madphilosopher.ca/).
+
 
 ## Compatibility
 
-Tested under Python 2.7.12 and Python 3.5.2.
+Tested under Python 2.7.12, 2.7.17, and Python 3.5.2, 3.6.9.
 
 
 ## Script Font for Labels
